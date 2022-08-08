@@ -1,0 +1,22 @@
+{
+  "configVersion": "0.1",
+  "availableVersions": [ "4.5.0" ],
+  "versions": {
+    "4.5.0": {
+      "insecureSupport": true,
+      "javaRequirement": [ "11" ],
+      "mySqlRequirement": [ "5", "7" ],
+      "systems": [
+        {
+          "name": "serviceregistry",
+          "mySqlUser": "service_registry",
+          "defaultPort": 8443,
+          "storageRequirementInMb": 75,
+          "ramRequirementInMb": 128,
+          "checksum": "TODO"
+        }
+
+      ]
+    }
+  }
+}
