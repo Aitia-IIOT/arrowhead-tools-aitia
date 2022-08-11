@@ -9,150 +9,169 @@
       "systems": [
         {
           "name": "serviceregistry",
+          "useDB": true,
           "mySqlUser": "service_registry",
           "defaultPort": 8443,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+		    {
           "name": "authorization",
+          "useDB": true,
           "mySqlUser": "authorization",
           "defaultPort": 8445,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+		    {
           "name": "orchestrator",
+          "useDB": true,
           "mySqlUser": "orchestrator",
           "defaultPort": 8441,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+		    {
           "name": "certificateauthority",
+          "useDB": true,
           "mySqlUser": "certificate_authority",
           "defaultPort": 8448,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+		    {
           "name": "choreographer",
+          "useDB": true,
           "mySqlUser": "choreographer",
           "defaultPort": 8457,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "configuration",
+          "useDB": true,
           "mySqlUser": "configuration",
           "defaultPort": 8459,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "datamanager",
+          "useDB": true,
           "mySqlUser": "datamanager",
           "defaultPort": 8461,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "deviceregistry",
+          "useDB": true,
           "mySqlUser": "device_registry",
           "defaultPort": 8439,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+    		{
           "name": "eventhandler",
+          "useDB": true,
           "mySqlUser": "event_handler",
           "defaultPort": 8455,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+    		{
           "name": "gams",
+          "useDB": true,
           "mySqlUser": "gams",
           "defaultPort": 8502,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "gatekeeper",
+          "useDB": true,
           "mySqlUser": "gatekeeper",
           "defaultPort": 8449,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "gateway",
+          "useDB": true,
           "mySqlUser": "gateway",
           "defaultPort": 8453,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "hawkbitconfigurationmanager",
+          "useDB": false,
           "mySqlUser": "",
           "defaultPort": 8447,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "mscv",
+          "useDB": true,
           "mySqlUser": "mscv",
           "defaultPort": 8501,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "onboardingcontroller",
+          "useDB": true,
           "mySqlUser": "onboarding_controller",
           "defaultPort": 8435,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "plantdescriptionengine",
+          "useDB": true,
           "mySqlUser": "plant_description_engine",
           "defaultPort": 8432,
           "storageRequirementInMb": 80,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "qosmonitor",
+          "useDB": true,
           "mySqlUser": "qos_monitor",
           "defaultPort": 8451,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "timemanager",
+          "useDB": true,
           "mySqlUser": "timemanager",
           "defaultPort": 8463,
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "checksum": "TODO"
         },
-		{
+	    	{
           "name": "translator",
+          "useDB": true,
           "mySqlUser": "translator",
           "defaultPort": 8462,
           "storageRequirementInMb": 75,
