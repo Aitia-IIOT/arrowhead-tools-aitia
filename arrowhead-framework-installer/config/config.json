@@ -6,7 +6,7 @@
       "insecureSupport": true,
       "javaRequirement": [ "11" ],
       "mySqlRequirement": [ "5", "7" ],
-      "configZipChecksum": "TODO",
+      "configZipChecksum": "6d80ae94c2820c824c4e28b6a534ddd0",
       "systems": [
         {
           "name": "serviceregistry",
@@ -16,9 +16,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-serviceregistry",
+          "checksum": "406ed04adfad8cc3140abf864fb5b532"
         },
-		    {
+		{
           "name": "authorization",
           "useDB": true,
           "mySqlUser": "authorization",
@@ -26,9 +27,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-authorization",
+          "checksum": "c70031c109abe0bc727634acb46f0e76"
         },
-		    {
+		{
           "name": "orchestrator",
           "useDB": true,
           "mySqlUser": "orchestrator",
@@ -36,9 +38,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-orchestrator",
+          "checksum": "8b5554d7a3a4a4405fbc481c577fe4d5"
         },
-		    {
+		{
           "name": "certificateauthority",
           "useDB": true,
           "mySqlUser": "certificate_authority",
@@ -46,9 +49,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-certificate-authority",
+          "checksum": "47b0d10bf435c34b25de772c3bf93e7f"
         },
-		    {
+		{
           "name": "choreographer",
           "useDB": true,
           "mySqlUser": "choreographer",
@@ -56,9 +60,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-choreographer",
+          "checksum": "f10f9d51a19c154f25584410bfab963e"
         },
-	    	{
+	    {
           "name": "configuration",
           "useDB": true,
           "mySqlUser": "configuration",
@@ -66,9 +71,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-configuration",
+          "checksum": "faccd88e599e08c0dae4778c5fa434d7"
         },
-	    	{
+	    {
           "name": "datamanager",
           "useDB": true,
           "mySqlUser": "datamanager",
@@ -77,9 +83,10 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
           "warning": "TODO datamanager warning",
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-datamanager",
+          "checksum": "1cbbc9b62306d0dc4bc77525ffae00d2"
         },
-	    	{
+	    {
           "name": "deviceregistry",
           "useDB": true,
           "mySqlUser": "device_registry",
@@ -87,9 +94,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-deviceregistry",
+          "checksum": "f840b9d41f698564d32287e93ad91347"
         },
-    		{
+    	{
           "name": "eventhandler",
           "useDB": true,
           "mySqlUser": "event_handler",
@@ -97,9 +105,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-eventhandler",
+          "checksum": "a54179eee4c6904e1145957711302487"
         },
-    		{
+    	{
           "name": "gams",
           "useDB": true,
           "mySqlUser": "gams",
@@ -107,9 +116,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-gams",
+          "checksum": "57f140692198df878e34844683c1a147"
         },
-	    	{
+	    {
           "name": "gatekeeper",
           "useDB": true,
           "mySqlUser": "gatekeeper",
@@ -117,9 +127,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-gatekeeper",
+          "checksum": "285610c1c3eaeacbc79d3ff60a5c83dd"
         },
-	    	{
+	    {
           "name": "gateway",
           "useDB": true,
           "mySqlUser": "gateway",
@@ -127,9 +138,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-gateway",
+          "checksum": "d73d3aefcfb5f4855ac6dc479ea9eda9"
         },
-	    	{
+	    {
           "name": "hawkbitconfigurationmanager",
           "useDB": false,
           "mySqlUser": "",
@@ -138,9 +150,10 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": false,
           "warning": "TODO hawkbit warning",
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-hawkbit-configuration-manager",
+          "checksum": "718e65171e317ed3bbabfbd30085daeb"
         },
-	    	{
+	    {
           "name": "mscv",
           "useDB": true,
           "mySqlUser": "mscv",
@@ -149,9 +162,10 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": false,
           "warning": "TODO MSCV warning",
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-mscv",
+          "checksum": "96cd8ab0d7654f72a738e8e97cea9ab7"
         },
-	    	{
+	    {
           "name": "onboardingcontroller",
           "useDB": true,
           "mySqlUser": "onboarding_controller",
@@ -159,9 +173,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-onboarding",
+          "checksum": "292241d4ad44f91921d922de93f7950a"
         },
-	    	{
+	    {
           "name": "plantdescriptionengine",
           "useDB": true,
           "mySqlUser": "plant_description_engine",
@@ -169,9 +184,10 @@
           "storageRequirementInMb": 80,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-plantdescriptionengine",
+          "checksum": "6848e0edb74546c0dfa33d62e5035086"
         },
-	    	{
+	    {
           "name": "qosmonitor",
           "useDB": true,
           "mySqlUser": "qos_monitor",
@@ -180,7 +196,8 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
           "warning": "TODO QoS monitor warning",
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-qos-monitor",
+          "checksum": "d6cd77a2ef49a5bb0148141e7a5ec859"
         },
         {
           "name": "systemregistry",
@@ -190,9 +207,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		     "fileNamePrefix": "arrowhead-systemregistry",
+          "checksum": "47ac86535f691bd091e47317c247ee40"
         },
-	    	{
+	    {
           "name": "timemanager",
           "useDB": true,
           "mySqlUser": "timemanager",
@@ -200,9 +218,10 @@
           "storageRequirementInMb": 75,
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
-          "checksum": "TODO"
+		      "fileNamePrefix": "arrowhead-timemanager",
+          "checksum": "0d124522e69c712cb607e33b1ea90e16"
         },
-	    	{
+	    {
           "name": "translator",
           "useDB": true,
           "mySqlUser": "translator",
@@ -211,7 +230,8 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": false,
           "warning": "TODO translator warning",
-          "checksum": "TODO"
+		     "fileNamePrefix": "arrowhead-translator",
+          "checksum": "92c6be8462b289af690aeda2c3275ea3"
         }
       ]
     }
