@@ -6,7 +6,7 @@
       "insecureSupport": true,
       "javaRequirement": [ "11" ],
       "mySqlRequirement": [ "5", "7" ],
-      "configZipChecksum": "6d80ae94c2820c824c4e28b6a534ddd0",
+      "configZipChecksum": "83fc8ef8603de90d93c64dd2ddd32603",
       "systems": [
         {
           "name": "serviceregistry",
@@ -17,7 +17,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-serviceregistry",
-          "checksum": "406ed04adfad8cc3140abf864fb5b532"
+          "checksum": "c3cf14a019f1f10c65946ccc97d09c3c"
         },
 		{
           "name": "authorization",
@@ -28,7 +28,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-authorization",
-          "checksum": "c70031c109abe0bc727634acb46f0e76"
+          "checksum": "f6da12253f8d1509936e6c17a78e526c"
         },
 		{
           "name": "orchestrator",
@@ -39,7 +39,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-orchestrator",
-          "checksum": "8b5554d7a3a4a4405fbc481c577fe4d5"
+          "checksum": "ade7a9e8a094d1c16eec640817fe3ad8"
         },
 		{
           "name": "certificateauthority",
@@ -50,7 +50,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-certificate-authority",
-          "checksum": "47b0d10bf435c34b25de772c3bf93e7f"
+          "checksum": "2ce937c28e9825016d6ea8ce53c3a770"
         },
 		{
           "name": "choreographer",
@@ -61,7 +61,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-choreographer",
-          "checksum": "f10f9d51a19c154f25584410bfab963e"
+          "checksum": "31f323f030bb5b0f86ef5bf9faeb1576"
         },
 	    {
           "name": "configuration",
@@ -72,7 +72,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-configuration",
-          "checksum": "faccd88e599e08c0dae4778c5fa434d7"
+          "checksum": "d6caa526c0e3c41af847c169d3d56039"
         },
 	    {
           "name": "datamanager",
@@ -84,7 +84,7 @@
           "recommendedStartAfterInstall": true,
           "warning": "TODO datamanager warning",
 		      "fileNamePrefix": "arrowhead-datamanager",
-          "checksum": "1cbbc9b62306d0dc4bc77525ffae00d2"
+          "checksum": "1b6c37ac61f8d8b1a06e471f8da582d3"
         },
 	    {
           "name": "deviceregistry",
@@ -95,7 +95,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-deviceregistry",
-          "checksum": "f840b9d41f698564d32287e93ad91347"
+          "checksum": "33a90f6b58f0e85d4aaf59c5a4443a14"
         },
     	{
           "name": "eventhandler",
@@ -106,7 +106,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-eventhandler",
-          "checksum": "a54179eee4c6904e1145957711302487"
+          "checksum": "1ae668d7a9984a081ef176cbede4999b"
         },
     	{
           "name": "gams",
@@ -117,7 +117,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-gams",
-          "checksum": "57f140692198df878e34844683c1a147"
+          "checksum": "a1c3df4b810b86af990df700277f0112"
         },
 	    {
           "name": "gatekeeper",
@@ -128,7 +128,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-gatekeeper",
-          "checksum": "285610c1c3eaeacbc79d3ff60a5c83dd"
+          "checksum": "98222e0e9783c1c57f5fdf1ccaabb8ed"
         },
 	    {
           "name": "gateway",
@@ -139,7 +139,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-gateway",
-          "checksum": "d73d3aefcfb5f4855ac6dc479ea9eda9"
+          "checksum": "8603342d9c4fe99a44133ba8a201c811"
         },
 	    {
           "name": "hawkbitconfigurationmanager",
@@ -151,7 +151,7 @@
           "recommendedStartAfterInstall": false,
           "warning": "TODO hawkbit warning",
 		      "fileNamePrefix": "arrowhead-hawkbit-configuration-manager",
-          "checksum": "718e65171e317ed3bbabfbd30085daeb"
+          "checksum": "4384e361cd89586c142de759fa9fb1b0"
         },
 	    {
           "name": "mscv",
@@ -163,7 +163,7 @@
           "recommendedStartAfterInstall": false,
           "warning": "TODO MSCV warning",
 		      "fileNamePrefix": "arrowhead-mscv",
-          "checksum": "96cd8ab0d7654f72a738e8e97cea9ab7"
+          "checksum": "cbcaf7ce22794c2dfd99eb0d70cf27f3"
         },
 	    {
           "name": "onboardingcontroller",
@@ -174,7 +174,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-onboarding",
-          "checksum": "292241d4ad44f91921d922de93f7950a"
+          "checksum": "f61b95c9fc77c0547846d91b452b37e9"
         },
 	    {
           "name": "plantdescriptionengine",
@@ -185,7 +185,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-plantdescriptionengine",
-          "checksum": "6848e0edb74546c0dfa33d62e5035086"
+          "checksum": "3ea60530e9d03eb687b6f1d350ce97cb"
         },
 	    {
           "name": "qosmonitor",
@@ -197,7 +197,7 @@
           "recommendedStartAfterInstall": true,
           "warning": "TODO QoS monitor warning",
 		      "fileNamePrefix": "arrowhead-qos-monitor",
-          "checksum": "d6cd77a2ef49a5bb0148141e7a5ec859"
+          "checksum": "6411ddf26734b1dff42a5655c1826868"
         },
         {
           "name": "systemregistry",
@@ -208,7 +208,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		     "fileNamePrefix": "arrowhead-systemregistry",
-          "checksum": "47ac86535f691bd091e47317c247ee40"
+          "checksum": "b614e796eed263230be7ff1812aef1ec"
         },
 	    {
           "name": "timemanager",
@@ -219,7 +219,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		      "fileNamePrefix": "arrowhead-timemanager",
-          "checksum": "0d124522e69c712cb607e33b1ea90e16"
+          "checksum": "4aa4b86a51192cf23c7c597aa99fee1a"
         },
 	    {
           "name": "translator",
@@ -231,7 +231,7 @@
           "recommendedStartAfterInstall": false,
           "warning": "TODO translator warning",
 		     "fileNamePrefix": "arrowhead-translator",
-          "checksum": "92c6be8462b289af690aeda2c3275ea3"
+          "checksum": "3dc3e8934bba804ea8e2b14cef0b4a92"
         }
       ]
     }
