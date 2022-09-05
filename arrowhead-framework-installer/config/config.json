@@ -11,6 +11,7 @@
         {
           "name": "serviceregistry",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "service_registry",
           "defaultPort": 8443,
           "storageRequirementInMb": 75,
@@ -21,6 +22,7 @@
         },
 		{
           "name": "authorization",
+          "secureOnly": false,
           "useDB": true,
           "mySqlUser": "authorization",
           "defaultPort": 8445,
@@ -33,6 +35,7 @@
 		{
           "name": "orchestrator",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "orchestrator",
           "defaultPort": 8441,
           "storageRequirementInMb": 75,
@@ -44,6 +47,7 @@
 		{
           "name": "certificateauthority",
           "useDB": true,
+          "secureOnly": true,
           "mySqlUser": "certificate_authority",
           "defaultPort": 8448,
           "storageRequirementInMb": 75,
@@ -55,6 +59,7 @@
 		{
           "name": "choreographer",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "choreographer",
           "defaultPort": 8457,
           "storageRequirementInMb": 75,
@@ -66,6 +71,7 @@
 	    {
           "name": "configuration",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "configuration",
           "defaultPort": 8459,
           "storageRequirementInMb": 75,
@@ -77,6 +83,7 @@
 	    {
           "name": "datamanager",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "datamanager",
           "defaultPort": 8461,
           "storageRequirementInMb": 75,
@@ -89,6 +96,7 @@
 	    {
           "name": "deviceregistry",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "device_registry",
           "defaultPort": 8439,
           "storageRequirementInMb": 75,
@@ -100,6 +108,7 @@
     	{
           "name": "eventhandler",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "event_handler",
           "defaultPort": 8455,
           "storageRequirementInMb": 75,
@@ -111,6 +120,7 @@
     	{
           "name": "gams",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "gams",
           "defaultPort": 8502,
           "storageRequirementInMb": 75,
@@ -122,6 +132,7 @@
 	    {
           "name": "gatekeeper",
           "useDB": true,
+          "secureOnly": true,
           "mySqlUser": "gatekeeper",
           "defaultPort": 8449,
           "storageRequirementInMb": 75,
@@ -133,6 +144,7 @@
 	    {
           "name": "gateway",
           "useDB": true,
+          "secureOnly": true,
           "mySqlUser": "gateway",
           "defaultPort": 8453,
           "storageRequirementInMb": 75,
@@ -144,6 +156,7 @@
 	    {
           "name": "hawkbitconfigurationmanager",
           "useDB": false,
+          "secureOnly": false,
           "mySqlUser": "",
           "defaultPort": 8447,
           "storageRequirementInMb": 75,
@@ -156,6 +169,7 @@
 	    {
           "name": "mscv",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "mscv",
           "defaultPort": 8501,
           "storageRequirementInMb": 75,
@@ -168,6 +182,7 @@
 	    {
           "name": "onboardingcontroller",
           "useDB": true,
+          "secureOnly": true,
           "mySqlUser": "onboarding_controller",
           "defaultPort": 8435,
           "storageRequirementInMb": 75,
@@ -179,6 +194,7 @@
 	    {
           "name": "plantdescriptionengine",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "plant_description_engine",
           "defaultPort": 8432,
           "storageRequirementInMb": 80,
@@ -190,6 +206,7 @@
 	    {
           "name": "qosmonitor",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "qos_monitor",
           "defaultPort": 8451,
           "storageRequirementInMb": 75,
@@ -202,6 +219,7 @@
         {
           "name": "systemregistry",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "system_registy",
           "defaultPort": 8437,
           "storageRequirementInMb": 75,
@@ -213,6 +231,7 @@
 	    {
           "name": "timemanager",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "timemanager",
           "defaultPort": 8463,
           "storageRequirementInMb": 75,
@@ -224,6 +243,7 @@
 	    {
           "name": "translator",
           "useDB": true,
+          "secureOnly": false,
           "mySqlUser": "translator",
           "defaultPort": 8462,
           "storageRequirementInMb": 75,
