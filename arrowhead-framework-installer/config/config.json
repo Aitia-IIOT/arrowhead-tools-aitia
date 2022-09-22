@@ -258,7 +258,7 @@
 	"4.6.0": {
       "insecureSupport": true,
       "javaRequirement": [ "11" ],
-      "mySqlRequirement": [ "5", "7" ],
+      "mySqlRequirement": [ "5", "7", "8" ],
       "configZipChecksum": "7ea6bf7356fde411186c4c263297b254",
       "systems": [
         {
