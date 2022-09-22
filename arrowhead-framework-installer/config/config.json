@@ -259,7 +259,7 @@
       "insecureSupport": true,
       "javaRequirement": [ "11" ],
       "mySqlRequirement": [ "5", "7" ],
-      "configZipChecksum": "83fc8ef8603de90d93c64dd2ddd32603",
+      "configZipChecksum": "7ea6bf7356fde411186c4c263297b254",
       "systems": [
         {
           "name": "serviceregistry",
@@ -271,6 +271,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-serviceregistry",
+		  "runningProofLog": "JVM running for",
           "checksum": "ce047ff6553806022c3903f0214a2c49"
         },
 		{
@@ -283,6 +284,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-authorization",
+		  "runningProofLog": "JVM running for",
           "checksum": "c71fddb554c0e6846daa87b18dd93401"
         },
 		{
@@ -295,6 +297,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-orchestrator",
+		  "runningProofLog": "JVM running for",
           "checksum": "bfa2df3a560a872649f409d8870916c1"
         },
 		{
@@ -307,6 +310,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-certificate-authority",
+		  "runningProofLog": "JVM running for",
           "checksum": "3420dbdd281fc76da852b91f797becc1"
         },
 		{
@@ -319,6 +323,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-choreographer",
+		  "runningProofLog": "JVM running for",
           "checksum": "34b921869fce4d8a50ca64a6bcec7d12"
         },
 	    {
@@ -331,6 +336,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-configuration",
+		  "runningProofLog": "JVM running for",
           "checksum": "216246f54d033b861bded45d6db8b9a1"
         },
 	    {
@@ -344,6 +350,7 @@
           "recommendedStartAfterInstall": true,
           "warning": "Using an Access Control List file for authorization.",
 		  "fileNamePrefix": "arrowhead-datamanager",
+		  "runningProofLog": "JVM running for",
           "checksum": "0676200344831cbbcad278e8fbe37743"
         },
 	    {
@@ -356,6 +363,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-deviceregistry",
+		  "runningProofLog": "JVM running for",
           "checksum": "6e6d825ba6570335c2060afebe04ba73"
         },
     	{
@@ -368,6 +376,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-eventhandler",
+		  "runningProofLog": "JVM running for",
           "checksum": "290bae0a59c59d7041bb3073323b2e20"
         },
     	{
@@ -380,6 +389,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-gams",
+		  "runningProofLog": "JVM running for",
           "checksum": "24c02adeaeb4e947e7dabd5f49f7f4a1"
         },
 	    {
@@ -392,6 +402,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-gatekeeper",
+		  "runningProofLog": "JVM running for",
           "checksum": "60616b026c333c1e8e7005fa179c4c72"
         },
 	    {
@@ -404,6 +415,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-gateway",
+		  "runningProofLog": "JVM running for",
           "checksum": "d2d60590cc97f2e9c9b379aea537a21b"
         },
 	    {
@@ -417,6 +429,7 @@
           "recommendedStartAfterInstall": false,
           "warning": "Need to configure an external Hawkbit software",
 		  "fileNamePrefix": "arrowhead-hawkbit-configuration-manager",
+		  "runningProofLog": "JVM running for",
           "checksum": "31d6c46b251838342f7dfb44e0bca54d"
         },
 	    {
@@ -430,6 +443,7 @@
           "recommendedStartAfterInstall": false,
           "warning": "Need to configure custom MSVC settings",
 		  "fileNamePrefix": "arrowhead-mscv",
+		  "runningProofLog": "JVM running for",
           "checksum": "fe660b25d301e4e4c62f101eb53908a4"
         },
 	    {
@@ -442,6 +456,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-onboarding",
+		  "runningProofLog": "JVM running for",
           "checksum": "01524b8a05e9addf2e62c9bfd59c691c"
         },
 	    {
@@ -454,6 +469,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-plantdescriptionengine",
+		  "runningProofLog": "The Plant Description Engine is up and running.",
           "checksum": "cb0ca0bae00c4637e21b9417ee2769f7"
         },
 	    {
@@ -467,6 +483,7 @@
           "recommendedStartAfterInstall": true,
           "warning": "Need a provider in the Service Registry that can ping computers",
 		  "fileNamePrefix": "arrowhead-qos-monitor",
+		  "runningProofLog": "JVM running for",
           "checksum": "3181ffbc8f170f7e1bec4184e5b46637"
         },
         {
@@ -479,6 +496,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-systemregistry",
+		  "runningProofLog": "JVM running for",
           "checksum": "1e4354028dc33cd54fdafe45141804ff"
         },
 	    {
@@ -491,6 +509,7 @@
           "ramRequirementInMb": 128,
           "recommendedStartAfterInstall": true,
 		  "fileNamePrefix": "arrowhead-timemanager",
+		  "runningProofLog": "JVM running for",
           "checksum": "30a96ccbad5ae32d17772c302af1263a"
         },
 	    {
@@ -504,6 +523,7 @@
           "recommendedStartAfterInstall": false,
           "warning": "Need to configure an external Fiware server",
 		  "fileNamePrefix": "arrowhead-translator",
+		  "runningProofLog": "JVM running for",
           "checksum": "73c148688571fa8f2694ba1fa1a6191a"
         }
       ]
