@@ -1,1 +1,1 @@
-**/Arrowhead-Framework-Installer* filter=lfs diff=lfs merge=lfs -text
+Arrowhead-Framework-Installer-* filter=lfs diff=lfs merge=lfs -text
