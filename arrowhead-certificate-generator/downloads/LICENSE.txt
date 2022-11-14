@@ -139,7 +139,7 @@ The Software uses the following third party components:
 @jridgewell/gen-mapping v0.1.1 by Justin Ridgewell (MIT)
 @jridgewell/resolve-uri v3.0.7 by Justin Ridgewell (MIT)
 @jridgewell/set-array v1.1.1 by Justin Ridgewell (MIT)
-@jridgewell/sourcemap-codec v1.4.13 by Justin Ridgewell (MIT)
+@jridgewell/sourcemap-codec v1.4.13 by Rich Harris (MIT)
 @jridgewell/trace-mapping v0.3.13 by Justin Ridgewell (MIT)
 @mui/base v5.0.0-alpha.85 by the MUI Team (MIT)
 @mui/icons-material v5.8.4 by the MUI Team (MIT)
