@@ -1,0 +1,1 @@
+**/arrowhead-framework-installer-* filter=lfs diff=lfs merge=lfs -text
