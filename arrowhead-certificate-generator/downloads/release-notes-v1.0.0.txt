@@ -1,0 +1,9 @@
+RELEASE NOTES
+
+Arrowhead-Certificate-Generator-Setup-1.0.0
+03.11.2022
+
+Initial release:
+
+Easily and efficiently generate arrowhead certificates, whether for existing or newly installed clouds. The application guides you step-by-step through the process and 
+ensures that the end result meets all the criteria
