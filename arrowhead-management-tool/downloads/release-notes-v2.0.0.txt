@@ -1,0 +1,7 @@
+RELEASE NOTES
+
+Arrowhead-Management-Tool-Setup-2.0.0
+15.11.2022
+
+- This desktop application is a replacement of the previous browser based version.
+- Arrowhead support: 4.4.0-4.6.0

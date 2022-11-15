@@ -1,0 +1,9 @@
+RELEASE NOTES
+
+Arrowhead-Framework-Installer-1.0.0
+14.11.2022
+
+Initial release:
+
+Install the desired Arrowhead central system with just a few clicks on the selected devices. Available in both online and offline versions, you can create your own local 
+clouds quickly and without configuration errors.
