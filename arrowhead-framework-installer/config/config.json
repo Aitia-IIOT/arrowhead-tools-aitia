@@ -6,7 +6,7 @@
       "insecureSupport": true,
       "javaRequirement": [ "11" ],
       "mySqlRequirement": [ "5", "7", "8" ],
-      "configZipChecksum": "6ae363939c0f574ed7677f5efaf02417",
+      "configZipChecksum": "fbb9b4cc8b50fd3d7fc11ed93068a1fe",
       "systems": [
         {
           "name": "serviceregistry",
@@ -259,7 +259,7 @@
       "insecureSupport": true,
       "javaRequirement": [ "11" ],
       "mySqlRequirement": [ "5", "7", "8" ],
-      "configZipChecksum": "6ae363939c0f574ed7677f5efaf02417",
+      "configZipChecksum": "0fa1a129fbd97f6e8e8f16e2dea19fcb",
       "systems": [
         {
           "name": "serviceregistry",
