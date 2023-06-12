@@ -1,5 +1,10 @@
 {
-  "configVersion": "0.1",
+  "configVersion": "0.2",
+  "uninstallerChecksum": {
+	"win32": "ba239b8ed9e69538657d05dead9bba8d",
+	"linux": "55cedb76fc21b4e92bf1a8fe8fbeac56",
+	"darwin": "4fbd2b493e7922c08fe821078580c9d4",
+  },
   "availableVersions": [ "4.5.0", "4.6.0" ],
   "versions": {
     "4.5.0": {
