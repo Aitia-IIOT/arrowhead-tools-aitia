@@ -3,7 +3,7 @@
   "uninstallerChecksum": {
 	"win32": "def15e9815e0da17fdc10edb03ba5cdb",
 	"linux": "c230b38690caa892fadae70467aacc5f",
-	"darwin": "4aba916c9cfa85af9543808c660fb724",
+	"darwin": "4aba916c9cfa85af9543808c660fb724"
   },
   "availableVersions": [ "4.6.1", "4.6.0", "4.5.0" ],
   "versions": {
