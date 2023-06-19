@@ -1,0 +1,22 @@
+RELEASE NOTES
+
+Arrowhead-Framework-Installer-1.1.0
+19.06.2023
+
+New Features:
+
+- New option for registering core systems as OS services.
+	- non-sucking service manager for Windows
+	- systemd for Linux
+	- launchd for Mac
+	
+- The online installer no longer includes the uninstaller, but downloads it instead.
+
+Bug Fixes:
+
+- Week database passwords has been changed. #44
+	- Week database password for testing the given database user has been changed.
+	- Special caracters has been added to the Core Systems DB user password generator.
+
+- MySql service version check failure has been fixed. #45
+	False-negative result has been obtained, when 3th part of the version contained letters. (Example: 8.0.32-0buntu0.20.04.1)
