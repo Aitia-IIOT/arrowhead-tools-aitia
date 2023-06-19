@@ -1,0 +1,10 @@
+RELEASE NOTES
+
+Arrowhead-Framework-Uninstaller-1.1.0
+19.06.2023
+
+New Features:
+- Unregistering operating system service if any during the uninstalling process.
+
+Bug fix:
+- Weak database password - for testing the database user - has been changed. (#12)
