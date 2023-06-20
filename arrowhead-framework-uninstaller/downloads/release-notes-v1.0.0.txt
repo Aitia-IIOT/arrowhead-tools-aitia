@@ -1,0 +1,8 @@
+RELEASE NOTES
+
+Arrowhead-Framework-Uninstaller-1.0.0
+14.11.2022
+
+Initial release:
+
+Remove easily the selected Arrowhead core systems which were installed by the Arrowhead-Framework-Installer from Aitia International Inc.

@@ -6,7 +6,7 @@ Arrowhead-Framework-Installer-1.1.0
 New Features:
 
 - New option for registering core systems as OS services.
-	- non-sucking service manager for Windows
+	- Non-Sucking Service Manager for Windows
 	- systemd for Linux
 	- launchd for Mac
 	
@@ -14,8 +14,8 @@ New Features:
 
 Bug Fixes:
 
-- Week database passwords has been changed. #44
-	- Week database password for testing the given database user has been changed.
+- Weak database passwords has been changed. #44
+	- Weea database password for testing the given database user has been changed.
 	- Special caracters has been added to the Core Systems DB user password generator.
 
 - MySql service version check failure has been fixed. #45
