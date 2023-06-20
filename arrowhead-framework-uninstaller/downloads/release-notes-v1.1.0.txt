@@ -8,3 +8,10 @@ New Features:
 
 Bug fix:
 - Weak database password - for testing the database user - has been changed. (#12)
+
+Arrowhead-Framework-Uninstaller-1.0.0
+14.11.2022
+
+Initial release:
+
+Remove easily the selected Arrowhead core systems which were installed by the Arrowhead-Framework-Installer from Aitia International Inc.
