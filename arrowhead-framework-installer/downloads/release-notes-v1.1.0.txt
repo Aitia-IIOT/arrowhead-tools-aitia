@@ -15,8 +15,16 @@ New Features:
 Bug Fixes:
 
 - Weak database passwords has been changed. #44
-	- Weea database password for testing the given database user has been changed.
+	- Weak database password for testing the given database user has been changed.
 	- Special caracters has been added to the Core Systems DB user password generator.
 
 - MySql service version check failure has been fixed. #45
 	False-negative result has been obtained, when 3th part of the version contained letters. (Example: 8.0.32-0buntu0.20.04.1)
+
+Arrowhead-Framework-Installer-1.0.0
+14.11.2022
+
+Initial release:
+
+Install the desired Arrowhead central system with just a few clicks on the selected devices. Available in both online and offline versions, you can create your own local 
+clouds quickly and without configuration errors.
